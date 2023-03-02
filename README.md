@@ -1,1 +1,10 @@
-# Convolutional GRU Network for the El Ni\~no-Southern Oscillation Region Forecast
+# Convolutional GRU Network for the El Nino-Southern Oscillation Region Forecast
+
+## Get Started
+
+1. Create an virtual environment using requirements.txt
+```
+conda install --yes --file requirements.txt
+```
+
+
