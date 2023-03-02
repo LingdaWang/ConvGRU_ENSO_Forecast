@@ -1,1 +1,1 @@
-# ConvGRU_ENSO_Forecast
+# Convolutional GRU Network for the El Ni\~no-Southern Oscillation Region Forecast
