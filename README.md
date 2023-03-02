@@ -54,4 +54,21 @@ python LR.py
 ### 3.5 Use `plot_res.ipynb` for figures
 
 
+## 4. Running details for the NOAA-CIRES dataset:
+
+### 4.1 Download the data to the dir `AirTMP_M/data`, and instructions can be found at `AirTmp_M/data/README.md`
+
+### 4.2 Train the ConvGRU network under the dir `AirTmp_M`, and the trained models will be saved in `AirTmp_M/saved_ConvGRU_model`
+```
+CUDA_VISIBLE_DEVICES=0 python main.py
+```
+
+### 4.3 Test the trained model
+```
+CUDA_VISIBLE_DEVICES=0 python plot_res.py
+```
+
+### 4.4 Switch to `AirTmp_M/plots`, and use `plot_res.ipynb` for figures
+
+
 
