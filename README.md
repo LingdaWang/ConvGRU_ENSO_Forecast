@@ -56,7 +56,7 @@ python LR.py
 
 ## 4. Running details for the NOAA-CIRES dataset:
 
-### 4.1 Download the data to the dir `AirTMP_M/data`, and instructions can be found at `AirTmp_M/data/README.md`
+### 4.1 Download the data to the dir `AirTmp_M/data`, and instructions can be found at `AirTmp_M/data/README.md`
 
 ### 4.2 Train the ConvGRU network under the dir `AirTmp_M`, and the trained models will be saved in `AirTmp_M/saved_ConvGRU_model`
 ```
